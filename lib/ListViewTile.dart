@@ -39,7 +39,7 @@ alignment: Alignment.bottomLeft,
               title: Text("Md Shishir  Ahmed",style: TextStyle(fontSize: 25),),
               subtitle: Text("0175202321",style: TextStyle(fontSize: 20),),
 
-              leading: CircleAvatar(backgroundImage: AssetImage("izaz.png"), ), // no matter how big it is, it won't overflow
+              leading: CircleAvatar(backgroundImage: AssetImage("assets/img.png"), ), // no matter how big it is, it won't overflow
 
              // leading: Icon(Icons.people_alt_sharp),
               trailing: IconButton(onPressed: (){
@@ -64,7 +64,7 @@ alignment: Alignment.bottomLeft,
             title: Text("Md Izazul Islam",style: TextStyle(fontSize: 30),),
             subtitle: Text("0175202321",style: TextStyle(fontSize: 20),),
             leading: CircleAvatar(
-              backgroundImage: AssetImage("assets/izaz.png"), // no matter how big it is, it won't overflow
+              backgroundImage: AssetImage("assets/img.png"), // no matter how big it is, it won't overflow
             ),
            // leading: Icon(Icons.people_alt_sharp),
             trailing: IconButton(onPressed: (){},icon: Icon(Icons.call,size: 40,),),
